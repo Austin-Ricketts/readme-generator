@@ -15,7 +15,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "description",
+        name: "contents",
         message: "Enter items for Table of Contents."
     },
 ]).then(function(data) {
