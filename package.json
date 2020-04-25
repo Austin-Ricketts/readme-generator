@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Austin-Ricketts/readme-generator#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "util": "^0.12.2"
   }
 }
