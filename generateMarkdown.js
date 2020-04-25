@@ -6,7 +6,13 @@ function generateMarkdown(data) {
   ${data.description}
   
   # Table of Contents 
-  ${data.contents}
+  
+  [Installation](#installation)
+  [Usage](#usage)
+  [License](#license)
+  [Contributing](#contributing)
+  [Tests](#tests)
+  [Questions](#questions)
 
   # Installation
 
@@ -19,7 +25,7 @@ function generateMarkdown(data) {
   # Tests
 
   # Questions
-  
+
   
   `;
   }
