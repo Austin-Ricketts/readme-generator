@@ -1,4 +1,4 @@
-const generateMarkdown = require("./node_modules/util/generateMarkdown.js");
+const generateMarkdown = require("./node_modules/util/generateMarkdown");
 
 const questions = [
 
