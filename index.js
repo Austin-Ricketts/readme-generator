@@ -1,11 +1,13 @@
 const generateMarkdown = require("./node_modules/util/generateMarkdown");
+const inquirer = require("inquirer");
+const fs = require("fs");
 
-const questions = [
-
-];
-
-function writeToFile(fileName, data) {
-}
+inquirer.prompt([
+    {
+        type: "input",
+        
+    },
+])
 
 function init() {
 
