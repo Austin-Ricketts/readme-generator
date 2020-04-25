@@ -15,8 +15,18 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "contents",
-        message: "Enter items for Table of Contents."
+        name: "copyright",
+        message: "What year are you copyrighting this?"
+    },
+    {
+        type: "input",
+        name: "website",
+        message: "What is the name of your website?"
+    },
+    {
+        type: "input",
+        name: "weblink",
+        message: "Please put the link to your website here."
     },
 ]).then(function(data) {
     const stringToWrite = generateMarkdown(data);
