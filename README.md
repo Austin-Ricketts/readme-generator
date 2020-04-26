@@ -4,7 +4,7 @@
 ### Description
 ![standard-readme compliant](https://img.shields.io/badge/Austin's-README%20Generator-lightgrey)
 
-This application is designed to create a quick but polished README.md from the command line.
+This application is designed to create a quick but polished README.md from the command line. It employs Node.js and NPM in order to accomplish the final result. The developer may enter their information as it is prompted from the command line. This information will be added into a README.md.
 
 ### Table of Contents 
 
@@ -25,6 +25,9 @@ This application is designed to create a quick but polished README.md from the c
 ### Usage
 
 ### License
+
+![standard-readme compliant](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Copyright 2020 &copy [Austin](https://austin-ricketts.github.io/Responsive-Portfolio/)
 
 ### Contributing

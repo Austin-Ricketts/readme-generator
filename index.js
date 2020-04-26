@@ -20,6 +20,11 @@ inquirer.prompt([
     },
     {
         type: "input",
+        name: "license",
+        message: "Please enter your license badge here."
+    },
+    {
+        type: "input",
         name: "copyright",
         message: "What year are you copyrighting this?"
     },

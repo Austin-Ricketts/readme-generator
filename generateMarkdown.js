@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ### Description
-[![standard-readme compliant](${data.badge})
+![standard-readme compliant](${data.badge})
 
 ${data.description}
 
@@ -21,6 +21,9 @@ ${data.description}
 ### Usage
 
 ### License
+
+![standard-readme compliant](${data.license})
+
 Copyright ${data.copyright} &copy [${data.website}](${data.weblink})
 
 ### Contributing
