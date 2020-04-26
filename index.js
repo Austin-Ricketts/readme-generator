@@ -10,6 +10,11 @@ inquirer.prompt([
     },
     {
         type: "input",
+        name: "badge",
+        message: "Put a link for your badge here."
+    },
+    {
+        type: "input",
         name: "description",
         message: "Describe your project."
     },
