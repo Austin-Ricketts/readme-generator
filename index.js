@@ -21,7 +21,12 @@ inquirer.prompt([
     {
         type: "input",
         name: "license",
-        message: "Please enter your license badge here."
+        message: "Please enter a link for your license badge here."
+    },
+    {
+        type: "input",
+        name: "licenseInfo",
+        message: "Please place a link to information regarding your license here."
     },
     {
         type: "input",

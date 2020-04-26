@@ -22,9 +22,9 @@ ${data.description}
 
 ### License
 
-![standard-readme compliant](${data.license})
+![standard-readme compliant](${data.license})(${data.licenseInfo})
 
-Copyright ${data.copyright} &copy [${data.website}](${data.weblink})
+Copyright ${data.copyright} © [${data.website}](${data.weblink})
 
 ### Contributing
 
