@@ -22,11 +22,14 @@ ${data.description}
 
 ### License
 
-![standard-readme compliant](${data.license})(${data.licenseInfo})
+![standard-readme compliant](${data.license})
+(${data.licenseInfo})
 
 Copyright ${data.copyright} © [${data.website}](${data.weblink})
 
 ### Contributing
+
+Standard README should follow the [Contributor Covenant](https://www.contributor-covenant.org/version/1/3/0/code-of-conduct/) Code of Conduct.
 
 ### Tests
 

@@ -26,11 +26,14 @@ This application is designed to create a quick but polished README.md from the c
 
 ### License
 
-![standard-readme compliant](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+![standard-readme compliant](https://img.shields.io/badge/License-MIT-yellow.svg)
+(https://opensource.org/licenses/MIT)
 
 Copyright 2020 © [Austin](https://austin-ricketts.github.io/Responsive-Portfolio/)
 
 ### Contributing
+
+Standard README should follow the [Contributor Covenant](https://www.contributor-covenant.org/version/1/3/0/code-of-conduct/) Code of Conduct.
 
 ### Tests
 
