@@ -1,35 +1,33 @@
 function generateMarkdown(data) {
-    return `
-  ### ${data.title}
-  
-  # Description
-  ${data.description}
-  
-  # Table of Contents 
-  
-  [1. Installation](#installation)
-  [2. Usage](#usage)
-  [3. License](#license)
-  [4. Contributing](#contributing)
-  [5. Tests](#tests)
-  [6. Questions](#questions)
+  return `
+# ${data.title}
 
-  # Installation
+### Description
+${data.description}
 
-  # Usage
+### Table of Contents 
 
-  # License
+1. [Installation](#installation)\n
+2. [Usage](#usage)\n
+3. [License](#license)\n
+4. [Contributing](#contributing)\n
+5. [Tests](#tests)\n
+6. [Questions](#questions)
 
-  Copyright ${data.copyright} [U+00A9] [${data.website}](${data.weblink})
+### Installation
 
-  # Contributing
+### Usage
 
-  # Tests
+### License
+Copyright ${data.copyright} [U+00A9] [${data.website}](${data.weblink})
 
-  # Questions
+### Contributing
 
-  
-  `;
-  }
-  
-  module.exports = generateMarkdown;
+### Tests
+
+### Questions
+
+`;
+}
+
+module.exports = generateMarkdown;

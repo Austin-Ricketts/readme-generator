@@ -42,9 +42,3 @@ inquirer.prompt([
 
   });
 });
-
-/*function init() {
-
-}
-
-init();*/
