@@ -2,6 +2,8 @@
 # README Generator
 
 ### Description
+[![standard-readme compliant](https://img.shields.io/badge/Austin's-README%20Generator-lightgrey)
+
 This application is designed to create a quick but polished README.md from the command line.
 
 ### Table of Contents 
@@ -23,7 +25,7 @@ This application is designed to create a quick but polished README.md from the c
 ### Usage
 
 ### License
-Copyright 2020 [U+00A9] [Austin](https://austin-ricketts.github.io/Responsive-Portfolio/)
+Copyright 2020 &copy [Austin](https://austin-ricketts.github.io/Responsive-Portfolio/)
 
 ### Contributing
 
