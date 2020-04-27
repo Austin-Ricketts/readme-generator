@@ -22,7 +22,7 @@ This application is designed to create a quick but polished README.md from the c
 
 ### Installation
 
-This product is installed, with node.js and nom, from the command line using the command node index.js.
+This product is installed, with node.js and npm, from the command line using the command node index.js.
 
 ### Usage
 
