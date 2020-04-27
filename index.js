@@ -30,8 +30,23 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "usage",
-        message: "Please put a link to any dependencies here and separate them by a comma."
+        name: "usageName1",
+        message: "Please write the name of a dependency here."
+    },
+    {
+        type: "input",
+        name: "usageLink1",
+        message: "Please link to that dependency here."
+    },
+    {
+        type: "input",
+        name: "usageName2",
+        message: "Please write the name of another dependency here."
+    },
+    {
+        type: "input",
+        name: "usageLink2",
+        message: "Please write a link to that dependency here."
     },
     {
         type: "input",
@@ -47,6 +62,11 @@ inquirer.prompt([
         type: "input",
         name: "copyright",
         message: "What year are you copyrighting this?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Please write information about tests here."
     },
     {
         type: "input",

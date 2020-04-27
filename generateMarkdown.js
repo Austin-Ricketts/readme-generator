@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ### Description
-![standard-readme compliant](${data.badge})()
+![standard-readme compliant](${data.badge})(${data.repoLink})
 
 ${data.description}
 
@@ -18,22 +18,29 @@ ${data.description}
 
 ### Installation
 
+${data.installation}
+
 ### Usage
 
-This project uses ().
+This project uses [${data.usageName1}](${data.usageLink1}).
+And [${data.usageName2}](${data.usageLink2}).
 
 ### License
 
 ![standard-readme compliant](${data.license})
 (${data.licenseInfo})
 
-Copyright ${data.copyright} © [${data.website}](${data.weblink})
+Copyright ${data.copyright} © [${data.developer}](${data.repoLink})
 
 ### Contributing
+
+If you have questions about contributing please email ${data.developer} at (${data.email}).
 
 Standard README should follow the [Contributor Covenant](https://www.contributor-covenant.org/version/1/3/0/code-of-conduct/) Code of Conduct.
 
 ### Tests
+
+${data.tests}
 
 ### Questions
 
