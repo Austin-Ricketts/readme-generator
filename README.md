@@ -2,7 +2,7 @@
 # README Generator
 
 ### Description
-![standard-readme compliant](https://img.shields.io/badge/Austin's-README%20Generator-lightgrey)(https://github.com/Austin-Ricketts/readme-generator)
+![standard-readme compliant]( https://img.shields.io/badge/Austin's-README%20Generator-lightgrey)(https://github.com/Austin-Ricketts/readme-generator)
 
 This application is designed to create a quick but polished README.md from the command line. It employs Node.js and NPM in order to accomplish the final result. The developer may enter their information as prompted from the command line. This information will be added into a README.md. This README.md was created using this application.
 
