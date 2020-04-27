@@ -15,8 +15,23 @@ inquirer.prompt([
     },
     {
         type: "input",
+        name: "repoLink",
+        message: "Please add a link to your repository here."
+    },
+    {
+        type: "input",
         name: "description",
         message: "Describe your project."
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "Please add a note about how to install your application."
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Please put a link to any dependencies here and separate them by a comma."
     },
     {
         type: "input",
@@ -35,13 +50,18 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "website",
-        message: "What is the name of your website?"
+        name: "developer",
+        message: "What is your GitHub user name?"
     },
     {
         type: "input",
-        name: "weblink",
-        message: "Please put the link to your website here."
+        name: "profile",
+        message: "Please provide a link to your GitHub profile."
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
     },
 ]).then(function(data) {
     const stringToWrite = generateMarkdown(data);

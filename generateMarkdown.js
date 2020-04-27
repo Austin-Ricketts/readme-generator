@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ### Description
-![standard-readme compliant](${data.badge})
+![standard-readme compliant](${data.badge})()
 
 ${data.description}
 
@@ -20,6 +20,8 @@ ${data.description}
 
 ### Usage
 
+This project uses ().
+
 ### License
 
 ![standard-readme compliant](${data.license})
@@ -34,6 +36,9 @@ Standard README should follow the [Contributor Covenant](https://www.contributor
 ### Tests
 
 ### Questions
+
+If you have any questions please contact [${data.developer}](${data.profile})
+You can email me here: (${data.email})
 
 `;
 }
